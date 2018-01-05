@@ -7,6 +7,7 @@ import { ProductGuardService } from './product-guard.service';
 import { ProductService } from './product.service';
 import { SharedModule } from '../shared/shared.module';
 
+
 @NgModule({
   imports: [
     RouterModule.forChild([
@@ -18,7 +19,8 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     ProductListComponent ,
     ProductDetailComponent,
-    ConvertToSpacesPipe
+    ConvertToSpacesPipe,
+    RouterModule
   ],
   providers: [
     ProductService,

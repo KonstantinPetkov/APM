@@ -19,7 +19,7 @@ import { ProductService } from './products/product.service';
         <router-outlet></router-outlet>
     </div>
   `,
-  providers: [ ProductService ]
+  //providers: [ ProductService ]
 })
 export class AppComponent {
   pageTitle: string = 'My Product Management ';
